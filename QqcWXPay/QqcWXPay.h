@@ -27,9 +27,8 @@ single_interface_qqc(QqcWXPay);
  *  初始化支付SDK
  *
  *  @param appId 微信开发者ID
- *  @param desc  应用附加信息，长度不超过1024字节
  */
-- (void)connectSdkWithAppId:(NSString *)appId description:(NSString *)strDesc;
+- (void)connectSdkWithAppId:(NSString *)appId;
 
 /**
  *  支付回调传递处理，在下面的三个代理函数中调用

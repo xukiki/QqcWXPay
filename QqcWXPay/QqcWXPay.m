@@ -45,10 +45,10 @@ single_implementation_qqc(QqcWXPay)
     return _qqcwxDelegate;
 }
 
-- (void)connectSdkWithAppId:(NSString *)appId description:(NSString *)strDesc
+- (void)connectSdkWithAppId:(NSString *)appId
 {
     //向微信注册
-    [WXApi registerApp:appId withDescription:strDesc];
+    [WXApi registerApp:appId];
 }
 
 - (BOOL)handleWXOpenUrl:(NSURL*)url

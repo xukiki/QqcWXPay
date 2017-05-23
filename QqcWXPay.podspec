@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "QqcWXPay"
-  s.version      = "1.0.16"
+  s.version      = "1.0.18"
   s.summary      = "QqcWXPay"
   s.homepage     = "https://github.com/xukiki/QqcWXPay"
   s.source       = { :git => "https://github.com/xukiki/QqcWXPay.git", :tag => "#{s.version}" }
