@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "QqcWXPay"
-  s.version      = "1.0.14"
+  s.version      = "1.0.16"
   s.summary      = "QqcWXPay"
   s.homepage     = "https://github.com/xukiki/QqcWXPay"
   s.source       = { :git => "https://github.com/xukiki/QqcWXPay.git", :tag => "#{s.version}" }
@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.dependency 'QqcSingletonTemplate'
   s.dependency 'QqcLog'
   #s.dependency 'QqcWXPaySDK'
-  s.dependency 'ShareSDK3'
+  s.dependency 'ShareSDK3/ShareSDKPlatforms/WeChat'
 end
